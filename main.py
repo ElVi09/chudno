@@ -1,4 +1,3 @@
-  
 from decimal import *
 from math import factorial
 
@@ -14,5 +13,5 @@ def pi(n):
     return pi
 
 n = int(input())
-getcontext().prec = n
+getcontext().prec = n + 1
 print(pi(n))
